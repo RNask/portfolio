@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --primary-color:#302625;
+    --secondary-color: #420404;
+    --tertiary-color: #3E4E89;
+    --quaternary-color: #E47734;
+    --quinary-color: #DFDFDF;
+    --primary-font: 'Libre Baskerville', serif; 
+    --effect-button: #EB7126;
+}
+
+body {
+    background-color: var(--secondary-color);
+    color: var(--quaternary-color);
+    font-family: 'Libre Baskerville', serif;
+    font-size: 400;
+    font-size: 16px;
+}
+
+.principal {
+    background-image: url("../assets/images/allucard\ crente.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container_caixa {
+    margin: 0 6em;
+}
+
+.container_titulo {
+    font-size: 28px;
+}
+
+.container_imagem {
+    margin: 1em 0 2em 0;
+}
+
+.container_botao {
+    background-color: var(--quinary-color);
+    border-radius: 5px;
+    padding: 1rem;
+    color: var(--tertiary-color);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.container_botao:hover {
+    background-color: var(--effect-button);
+    color: var(--quinary-color);
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--quaternary-color);
+}
+
+.container_aviso {
+    font-size: 12px;
+    color: var(--quinary-color);
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.secundario_imagem {
+    width: 80%;
+}
+
+.descricao_titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--quinary-color);
+    margin-bottom: 0.1em;
+}
+
+.descricao_texto {
+    color: var(--quinary-color);
+}
+
+.secundario_botao {
+    display: inline-block;
+    margin: 1em;
+}
+
+.container_descricao {
+    padding: 2em;
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos_titulo {
+    font-size: 48px;
+    color: var(--quinary-color);
+}
+
+.dispositivos_lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.lista_item {
+    font-size: 32px;
+    color: var(--quinary-color);
+}
+
+.rodape {
+    text-align: center;
+}
+
+.rodape_lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+.lista_link a {
+    text-decoration: none;
+    color: var(--quinary-color);
+    margin-left: 1em;
+}
+
+.lista_link a:hover {
+    color: var(--quaternary-color);
+}
+
+.lista_link a:active {
+    color: var(--tertiary-color);
+}
+
+.rodape_texto {
+    margin: 1em 0;
+    color: var(--quinary-color);
+    font-size: 14px;
+}
